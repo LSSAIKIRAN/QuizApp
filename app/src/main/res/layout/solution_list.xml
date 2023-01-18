@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10mdp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/_20mdp"
+            android:textSize="@dimen/_18font_mdp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option1"
+            android:textSize="@dimen/_15font_mdp"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:layout_marginBottom="@dimen/_10mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_20mdp"
+            android:text="Otpion 1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option2"
+            android:textSize="@dimen/_15font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_20mdp"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:layout_marginBottom="@dimen/_10mdp"
+            android:text="Otpion 3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option3"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:layout_marginBottom="@dimen/_10mdp"
+            android:textSize="@dimen/_15font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_20mdp"
+            android:text="Otpion 3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option4"
+            android:layout_marginTop="@dimen/_10mdp"
+            android:layout_marginBottom="@dimen/_10mdp"
+            android:textSize="@dimen/_15font_mdp"
+            android:textColor="@color/black"
+            android:padding="@dimen/_20mdp"
+            android:text="Otpion 4"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
